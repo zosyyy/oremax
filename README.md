@@ -16,34 +16,21 @@ Welcome to `ore-bot`, your premier solution for dominating the ore.supply game! 
 
 *   **💸 Automated Claiming & Selling**: `ore-bot` doesn't just win; it liquidates! Automatically claims your rewards and intelligently sells them based on predefined parameters, ensuring your profits are realized without manual intervention. Set it and forget it! 🔄
 
-## 🛠️ Setup & Installation
+## 🚀 Getting Started
 
 To get `ore-bot` up and running, follow these simple steps:
 
-### Prerequisites
+1.  **Download the bot:**
 
-*   Node.js (v18 or higher)
-*   npm (Node Package Manager)
-*   A Solana wallet with SOL for transactions and fees.
+    Download the `oremax` project folder to your computer. You can do this by cloning the GitHub repository or downloading it manually as a ZIP file.
 
-### Installation
+2.  **Open the folder:**
 
-1.  **Download the repository:**
-
-    ```bash
-    git clone or manually download
-    cd oremax
-    ```
-
-2.  **Install dependencies:**
-
-    ```bash
-    npm install
-    ```
+    Navigate into the `oremax` folder on your computer.
 
 3.  **Configure your wallet:**
 
-    Create a `.env` file in the `oremax` directory based on `.env.example`. You\'ll need to provide your Solana private key and RPC URL (We already have one in env for you to use if you don't have one).
+    Inside the `oremax` folder, you will find a file named `.env.example`. Make a copy of this file and rename it to `.env`. Open the new `.env` file and replace `YOUR_SOLANA_PRIVATE_KEY_BASE58_OR_JSON_ARRAY` with your actual Solana wallet private key and `https://api.mainnet-beta.solana.com` with your preferred RPC URL. (A sample `.env` file is provided for convenience if you don\"t have one.)
 
     ```
     PRIVATE_KEY="YOUR_SOLANA_PRIVATE_KEY_BASE58_OR_JSON_ARRAY"
@@ -51,34 +38,21 @@ To get `ore-bot` up and running, follow these simple steps:
     # ... other configurations from .env.example
     ```
 
-### Running the Bot
+4.  **Run the bot!**
 
-To start `ore-bot` and let it begin its automated operations, you can use the provided convenience scripts:
+    `ore-bot` comes with easy-to-use scripts to get you started. These scripts will automatically install any necessary components and launch the bot.
 
-**For macOS/Linux users:**
+    **For macOS/Linux users:**
 
-1.  Make the script executable:
-    ```bash
-    chmod +x start.sh
-    ```
-2.  Run the bot:
-    ```bash
-    ./start.sh
-    ```
+    *   Double-click the `start.sh` file in the `oremax` folder.
 
-**For Windows users:**
+    **For Windows users:**
 
-1.  Simply double-click the `start.bat` file in the `oremax` directory.
+    *   Double-click the `start.bat` file in the `oremax` folder.
 
-Alternatively, you can still run it directly via npm:
+    ![Bot in action](image.png)
 
-```bash
-npm start
-```
-
-![Bot in action](image.png)
-
-The bot will then connect to the Solana network and begin executing its advanced betting strategies. Monitor the console for real-time updates on its performance. 📈
+    The bot will then connect to the Solana network and begin executing its advanced betting strategies. Monitor the console for real-time updates on its performance. 📈
 
 ## 📈 Performance
 
