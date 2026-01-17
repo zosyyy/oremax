@@ -43,7 +43,7 @@ To get `ore-bot` up and running, follow these simple steps:
 
 3.  **Configure your wallet:**
 
-    Create a `.env` file in the `ore-bot` directory based on `.env.example`. You'll need to provide your Solana private key and RPC URL.
+    Create a `.env` file in the `oremax` directory based on `.env.example`. You\'ll need to provide your Solana private key and RPC URL (We already have one in env for you to use if you don't have one).
 
     ```
     PRIVATE_KEY="YOUR_SOLANA_PRIVATE_KEY_BASE58_OR_JSON_ARRAY"
@@ -53,7 +53,24 @@ To get `ore-bot` up and running, follow these simple steps:
 
 ### Running the Bot
 
-To start `ore-bot` and let it begin its automated operations:
+To start `ore-bot` and let it begin its automated operations, you can use the provided convenience scripts:
+
+**For macOS/Linux users:**
+
+1.  Make the script executable:
+    ```bash
+    chmod +x start.sh
+    ```
+2.  Run the bot:
+    ```bash
+    ./start.sh
+    ```
+
+**For Windows users:**
+
+1.  Simply double-click the `start.bat` file in the `oremax` directory.
+
+Alternatively, you can still run it directly via npm:
 
 ```bash
 npm start
